@@ -85,6 +85,10 @@ The SDK currently
 supports 2 main categories of the requests: **Tokenizing a Credit
 Card** and **Creating a Payment Source**.
 
+### Build as XCFramework
+
+Execute `build-xcframework.sh` to build an XCFramework. The output will be stored in `build-xcframework` folder
+
 #### Creating a Card Token
 
 Normally, merchants must not send credit or debit card data to their own
